@@ -37,14 +37,20 @@ p{
     font-weight: 700;
 }
 .half-width{
+    border: 1px solid red;
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
+ section{
+     border: 1px solid green;
+     padding-bottom: 5%;
 
+ }
 .half-width img{
-    width: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 #half-width{
@@ -65,6 +71,7 @@ p{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 85%;
+    overflow: auto;
 }
 
 .experience-area{
